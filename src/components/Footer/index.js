@@ -21,18 +21,11 @@ class Footer extends Component {
     return (
       <div style={{ paddingTop: "75px" }}>
         <footer className={classes.footer__container} id="footer__container">
-            <img
-              src="/images/github.gif"
-              className="footer__github"
-              height="64px"
-              alt="github-logo"
-            />
           <a
             className="no_decoration_link footer__text"
             href="#"
-            target="_blank"
           >
-            {`© 2022 Copyright: Ronnel Omboy - v${version}`}
+            {`© 2022 Ronnel Omboy`}
           </a>
         </footer>
       </div>
