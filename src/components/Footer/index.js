@@ -23,7 +23,6 @@ class Footer extends Component {
         <footer className={classes.footer__container} id="footer__container">
           <a
             className="no_decoration_link footer__text"
-            href="#"
           >
             {`© 2022 Ronnel Omboy`}
           </a>

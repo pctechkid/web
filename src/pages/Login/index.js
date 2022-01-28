@@ -354,20 +354,6 @@ class Login extends Component {
                 margin="normal"
                 required
                 fullWidth
-                id="server"
-                label="Server"
-                name="server"
-                autoComplete="server"
-                onChange={this.handleTempServerChange}
-                value={server}
-                autoFocus
-                disabled
-              />
-              <TextField
-                variant="outlined"
-                margin="normal"
-                required
-                fullWidth
                 id="username"
                 label="Username"
                 name="username"
