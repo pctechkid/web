@@ -1,6 +1,6 @@
 <a href="#">
   <h3 align="center">
-    <img src="https://i.ibb.co/HVB5Dw1/lib-Drive-Header.png" width="600px" />
+    
   </h3>
 </a>
 <p align="center">
