@@ -87,20 +87,12 @@ export default class PlayerMenu extends Component {
           ) : (
             <div>
               <a
-                href={`potplayer://${server}/api/v1/redirectdownload/${encodeURIComponent(
-                  metadata.name
-                )}?a=${auth}&id=${id}`}
-                className="no_decoration_link"
-              >
-                <MenuItem onClick={this.handleClose}>PotPlayer</MenuItem>
-              </a>
-              <a
                 href={`vlc://${server}/api/v1/redirectdownload/${encodeURIComponent(
                   metadata.name
                 )}?a=${auth}&id=${id}`}
                 className="no_decoration_link"
               >
-                <MenuItem onClick={this.handleClose}>PotPlayer</MenuItem>
+                <MenuItem onClick={this.handleClose}>VLC Media Player</MenuItem>
               </a>
             </div>
           )}
